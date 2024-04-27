@@ -1,52 +1,66 @@
 public class Main {
     public static void main(String[] args) {
-
-        var Dog = 8.0;
-        var Cat = 3.6;
-        var paper = 763789;
-        System.out.println("Dog8.0");
-        System.out.println("cat3.6");
-        System.out.println("paper763789");
-
-        var x = 8.0;
-        var result = 8.0 + 4;
-        System.out.println("dog8.0=" + result);//=120
-        var y = 3.6;
-        var Result = 3.6 + 4;
-        System.out.println("cat3.6=" + result);//3.6+4=7.6
-        var Paper = 763789;
-        System.out.println("paper763789=" + result);//763789+4=763793
-
+        //1
         var dog = 8.0;
-        System.out.println("dog8.0=" + result);//dog-3.5=4.5;
         var cat = 3.6;
+        var paper = 763789;
+        System.out.println("Dog");
+        System.out.println("cat");
+        System.out.println("paper");
 
-        System.out.println("cat3.6=" + result);//cat-1.6=2.0;
+        //2
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+        System.out.println("Dog");
+        System.out.println("cat");
+        System.out.println("paper");
 
-        System.out.println("paper763789=" + result);//763789-7639=756150;
+        //3
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println("Dog");
+        System.out.println("cat");
+        System.out.println("paper");
 
-
+        //4
         var friend = 19;
-        System.out.println("friend19=" + result);//19+2=21;
-        System.out.println("friend21 =" + result);//21/7=3;
+        System.out.println("friend");
+        friend = friend + 2;
+        System.out.println("friend");
+        friend = friend / 7;
+        System.out.println("friend");
 
+        //5
         var frog = 3.5;
-        System.out.println("frog3.5 =" + result);//3.5*10=35;
+        System.out.println("frog");
+        frog = frog * 10;
+        System.out.println("frog");
+        frog = frog / 3.5;
+        System.out.println("frog");
+        frog = frog + 4;
+        System.out.println("frog");
+
+        //6
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        System.out.println("boxer1+boxer2");
+        System.out.println("boxer2-boxer1");
 
 
-        var X = 78.2;
-        var Y = 82.7;
-        System.out.println("x+y=" + result);//78.2+82.7=160.9;
-        System.out.println("x-y=" + result);//x-y=4.5;
+        //7
+        System.out.println("boxer2 - boxer1");
+        System.out.println("boxer2 % boxer1");
 
-        System.out.println("y%x=" + result);//78.2+82.7=160.9;
-        System.out.println("x-y=" + result);//y%x=1.057544;
+        //8
+        var totalWorkingHours = 640;
+        var workHours = 8;
+        var employeeCount = totalWorkingHours / workHours;
+        System.out.println("employeeCount");
+        System.out.println("Всего работников в компании-" + employeeCount + "человек ");
 
-        var time = 640;
-        var workTime = 8;
-        var staff = x;
-
-        System.out.println("640%8=" + result);//time/workTime=80;var staff=174"
-
+        employeeCount = employeeCount * 94;
+        System.out.println("Если в компании работает" + employeeCount + "человек, то всего" + totalWorkingHours + "часов работы может быть поделено между сотрудниками");
     }
 }
