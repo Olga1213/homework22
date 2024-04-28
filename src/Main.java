@@ -50,8 +50,8 @@ public class Main {
 
 
         //7
-        System.out.println("boxer2 - boxer1");
-        System.out.println("boxer2 % boxer1");
+        System.out.println(boxer2 - boxer1);
+        System.out.println(boxer2 % boxer1);
 
         //8
         var totalWorkingHours = 640;
